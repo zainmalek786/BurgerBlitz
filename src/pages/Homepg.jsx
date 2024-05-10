@@ -61,7 +61,14 @@ function Homepg() {
           {
             breakpoint: 768, // Adjust this breakpoint according to your design
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 1.5,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 300, // Adjust this breakpoint according to your design
+            settings: {
+              slidesToShow: 1,
               slidesToScroll: 1
             }
           }
@@ -78,19 +85,19 @@ function Homepg() {
     <div className=' sm:flex text-center content-center mx-auto px-10 '>
 
 
-        <div className="mx-auto rounded-lg w-48  bg-slate-200 shadow-lg p-3 shadow-orange-900  md:my-5">
+        <div className="mx-auto rounded-lg w-48  bg-slate-200 shadow-lg p-3 shadow-orange-900 my-4  md:my-5">
             <div className=" p-3"><img src="/images/res20.jpeg" alt="" className='rounded-lg w-36'/></div>
             <h5 className='font-extrabold text-orange-900 py-1 text-xl'> <u>Beef Burger</u></h5>
             <p className=' text-sm'>Succulent beef patty, savory cheese, irresistible indulgence.</p>
         </div>
 
-        <div className=" mx-auto rounded-lg w-48  bg-slate-200 shadow-lg p-3 shadow-orange-900  md:my-5">
+        <div className=" mx-auto rounded-lg w-48  bg-slate-200 shadow-lg p-3 shadow-orange-900 mt-4 md:my-5">
             <div className=" p-3"><img src="/images/res13.jpeg" alt="" className='rounded-lg w-36'/></div>
             <h5 className='font-extrabold text-orange-900 py-1 text-xl'> <u>Chili Blast</u></h5>
             <p className=' text-sm'>Succulent beef patty, savory cheese, irresistible indulgence.</p>
         </div>
 
-        <div className=" mx-auto rounded-lg w-48  bg-slate-200 shadow-lg p-3 shadow-orange-900  md:my-5">
+        <div className=" mx-auto rounded-lg w-48  bg-slate-200 shadow-lg p-3 shadow-orange-900 mt-4 md:my-5">
             <div className=" p-3"><img src="/images/res15.jpeg" alt="" className='rounded-lg w-36'/></div>
             <h5 className='font-extrabold text-orange-900 py-1 text-xl'> <u>Messy Meat</u></h5>
             <p className=' text-sm'>Succulent beef patty, savory cheese, irresistible indulgence.</p>
